@@ -1,0 +1,27 @@
+[
+  {
+    "accountStatus": "1",
+    "city": "Rabat",
+    "country": "",
+    "postCode": "10000",
+    "phoneOperator": "IAM",
+    "PhotoUrl": "/profile/5802157016075623.jpeg",
+    "deviceId": "",
+    "langue": "EN",
+    "CardProgramId": "2",
+    "client_sex": "Mr",
+    "FeeAmountTransfertIM": "0.00",
+    "FeeAmountTransferConftIM": "0.00",
+    "FeeAmountBinatnaIM": "0.00",
+    "FeeAmountCardOpperation": "0.00",
+    "Email": "yassineelmalyh@gmail.com",
+    "Status": "000",
+    "Name": "SOUFIANE",
+    "Gsm": "212671***562",
+    "Adress": "Rabat",
+    "Radical": "0374439",
+    "SessionKeyId": "110426",
+    "FeeAmountMsg": "Merci de noter que cette op\\u00E9ration est soumise \\u00E0 une commission de % Dh HT",
+    "FeeAmountDebitCard": "0.00"
+  }
+]

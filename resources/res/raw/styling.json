@@ -1,0 +1,654 @@
+{
+  "button": {
+
+    "primary": {
+      "background_color": "#F15D22",
+      "title_color"     : "#FFFFFF",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": false,
+      "title_font_size" : 14,
+      "radius"          : 5,
+      "borderColor"     : null,
+      "borderWidth"     : null,
+      "underline"       : false
+    },
+    "secondary": {
+      "background_color": "#FFFFFF",
+      "title_color"     : "#F15D22",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": true,
+      "title_font_size" : 14,
+      "radius"          : 5,
+      "width"           : 0,
+      "height"          : 0,
+      "marginLeft"      : 0,
+      "marginButtom"    : 0,
+      "borderColor"     : "#F15D22",
+      "borderWidth"     : 4,
+      "underline"       : false
+    },
+    "info": {
+      "background_color": "#F15D22",
+      "title_color"     : "#FFFFFF",
+      "title_font_name" : "lato_bold",
+      "centreHorizontal": false,
+      "title_font_size" : 17,
+      "radius"          : 9,
+      "width"           : 160,
+      "height"          : 50,
+      "marginLeft"      : 0,
+      "marginButtom"    : 0,
+      "borderColor"     : null,
+      "borderWidth"     : 0,
+      "underline"       : false
+    },
+    "buttonConfigForFMCStep": {
+      "background_color": "#E7E8F0",
+      "title_color"     : "#FFFFFF",
+      "title_font_name" : "lato_bold",
+      "centreHorizontal": false,
+      "title_font_size" : 11,
+      "radius"          : 30,
+      "width"           : 30,
+      "height"          : 30,
+      "marginLeft"      : 0,
+      "marginButtom"    : 0,
+      "borderColor"     : null,
+      "borderWidth"     : 0,
+      "underline"       : false
+    }
+  },
+  "textfield"   : {
+
+    "primary": {
+      "singleLine"      : true,
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : "#E7E8EB",
+      "backgroundColor" : null,
+      "maxLength"       : null,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_book",
+      "hint_font_name"  : "avenir_bold",
+      "textColor"       :"#0D1F3C",
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0,
+      "labelAnimation"  : true,
+      "labelType"       : "beta2"
+    },
+    "fileUpload": {
+      "singleLine"      : true,
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : "#E7E8EB",
+      "backgroundColor" : null,
+      "maxLength"       : null,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_book",
+      "textColor"       :"#0D1F3C",
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0,
+      "labelAnimation"  : false,
+      "labelType"       : "beta2"
+    },
+    "primary2": {
+      "singleLine"       : true,
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : "#B5BBC9",
+      "backgroundColor" : null,
+      "maxLength"       : null,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_black",
+      "textColor"       :"#030108",
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0,
+      "labelAnimation"  : false,
+      "labelType"       : "beta2"
+
+    },
+    "countryPicker": {
+      "cursorVisible"   : true,
+      "underLineColor"  : "#030108",
+      "backgroundColor" : null,
+      "maxLength"       : 10,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_book",
+      "textColor"       : "#030108",
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0,
+      "singleLine"      : true,
+      "labelAnimation"  : false,
+      "labelType"       : "beta2"
+
+    },
+
+    "secondary": {
+      "singleLine"       : true,
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : "#E7E8EB",
+      "backgroundColor" : null,
+      "maxLength"       : null,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_book",
+      "textColor"       : null,
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0
+
+    },
+
+    "telTextField2": {
+      "singleLine"      : true,
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : "#B5BBC9",
+      "backgroundColor" : null,
+      "maxLength"       : 10,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_black",
+      "textColor"       : "#030108",
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0,
+      "labelAnimation"  : false,
+      "labelType"       : "beta2"
+
+    },
+    "telTextField222": {
+      "singleLine"      : true,
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : "#ffffff",
+      "backgroundColor" : null,
+      "maxLength"       : 10,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_black",
+      "textColor"       : "#030108",
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0,
+      "labelAnimation"  : false,
+      "labelType"       : "beta2"
+
+    },
+    "telTextField": {
+      "singleLine"       : true,
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : "#DDDDDD",
+      "backgroundColor" : null,
+      "maxLength"       : 10,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_black",
+      "textColor"       : "#030108",
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0
+
+    },
+
+    "otpTextField": {
+      "singleLine"       : true,
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : null,
+      "maxLength"       : 1,
+      "textSize "       : 22.5,
+      "backgroundColor" : "#F0F0F0",
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_black",
+      "textColor"       : "#00AFEF",
+      "centreText"      : true,
+      "borderColor"     : null,
+      "borderWidth"     : 0
+    },
+
+    "info": {
+      "cursorVisible"   : true,
+      "centreHorizontal": true,
+      "underLineColor"  : null,
+      "backgroundColor" : null,
+      "maxLength"       : null,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_book",
+      "textColor"       : null,
+      "centreText"      : false,
+      "borderColor"     : "#E7E7EA",
+      "borderWidth"     : 0
+
+    },
+
+    "textfieldConfig2": {
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : null,
+      "maxLength"       : 1,
+      "textSize "       : null,
+      "backgroundColor" : "#EAEBF3",
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "lato_bold",
+      "textColor"       : "#652130",
+      "centreText"      : true,
+      "borderColor"     : null,
+      "borderWidth"     : 0
+    },
+    "primary222": {
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : "#FFFFFF",
+      "backgroundColor" : null,
+      "maxLength"       : null,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_black",
+      "textColor"       : null,
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0
+
+    },
+    "info2": {
+      "cursorVisible"   : true,
+      "centreHorizontal": false,
+      "underLineColor"  : null,
+      "backgroundColor" : null,
+      "maxLength"       : null,
+      "background"      : null,
+      "icon"            : null,
+      "iconPadding"     : null,
+      "title_font_name" : "avenir_black",
+      "textColor"       : null,
+      "centreText"      : false,
+      "borderColor"     : null,
+      "borderWidth"     : 0
+    }
+  },
+  "label"       : {
+
+      "primary": {
+        "title_color"     : "#F15D22",
+        "title_font_name" : "arvo_bold",
+        "centreHorizontal": true,
+        "underLine"       : false,
+        "title_font_size" : 14
+      },
+    "boldcheckboxLabel": {
+      "title_color"     : "#0D1F3C",
+      "title_font_name" : "avenir_bold",
+      "underLine"       : false,
+      "title_font_size" : 14
+    },
+    "alpha31": {
+      "title_color"     : "#00AFEF",
+      "title_font_name" : "lato_bold",
+      "centreHorizontal": true,
+      "underLine"       : true,
+      "title_font_size" : 14
+    },
+      "checkBoxLabel222": {
+        "title_color"     : "#6C6C6C",
+        "title_font_name" : "avenir_black",
+        "centreHorizontal": true,
+        "underLine"       : false,
+        "title_font_size" : 10
+      },
+    "phoneFieldLabel": {
+      "title_color"     : "#9CA3AA",
+      "title_font_name" : "arvo_bold",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 15,
+      "width"           : 330,
+      "height"          : 25,
+      "marginLeft"      : 20,
+      "marginButtom"    : 0,
+      "alignement"      : null,
+      "padding"          : null
+
+    },
+    "erreur": {
+      "title_color"     : "#FF0000",
+      "title_font_name" : "arvo_bold",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 11,
+      "alignement"      : "left",
+      "padding"          : null
+    },
+    "securitylabel": {
+      "title_color"     : "#000000",
+      "title_font_name" : "avenir_book",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 12,
+      "alignement"      : "left",
+      "padding"          : null
+    },
+      "checkBoxLabel": {
+        "title_color"     : "#6C6C6C",
+        "title_font_name" : "avenir_black",
+        "centreHorizontal": true,
+        "underLine"       : false,
+        "title_font_size" : 11
+      },
+      "checkBoxLabel2": {
+        "title_color"     : "#B5BBC9",
+        "title_font_name" : "avenir_black",
+        "centreHorizontal": true,
+        "underLine"       : false,
+        "title_font_size" : 11
+      },
+
+      "secondary": {
+        "title_color"     : "#000000",
+        "title_font_name" : "avenir_book",
+        "centreHorizontal": true,
+        "underLine"       : false,
+        "title_font_size" : 14
+      },
+      "info": {
+        "title_color"     : "#003963",
+        "title_font_name" : "arvo_regular",
+        "centreHorizontal": true,
+        "underLine"       : false,
+        "title_font_size" : 14
+
+      },
+
+      "info2": {
+        "title_color"     : "#00AFEF",
+        "title_font_name" : "avenir_black",
+        "centreHorizontal": true,
+        "underLine"       : false,
+        "title_font_size" : 14
+      },
+      "alpha": {
+        "title_color"     : "#93A8B3",
+        "title_font_name" : "avenir_book",
+        "centreHorizontal": false,
+        "underLine"       : false,
+        "title_font_size" : 14
+      },
+      "alpha2": {
+        "title_color"     : "#030108",
+        "title_font_name" : "avenir_black",
+        "centreHorizontal": true,
+        "underLine"       : false,
+        "title_font_size" : 14
+      },
+      "beta": {
+        "title_color"     : "#0D1F3C",
+        "title_font_name" : "avenir_black",
+        "centreHorizontal": false,
+        "underLine"       : false,
+        "title_font_size" : 14
+      },
+      "beta2": {
+        "title_color"     : "#B5BBC9",
+        "title_font_name" : "avenir_black",
+        "underLine"       : false,
+        "title_font_size" : 14
+      },
+    "daystype": {
+      "title_color"     : "#3D4C63",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 14
+    },
+    "signatureLabel": {
+      "title_color"     : "#030108",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 26
+    },
+    "recapColum1": {
+      "title_color"     : "#B5BBC9",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 14
+    },
+    "recapColum2": {
+      "title_color"     : "#0D1F3C",
+      "title_font_name" : "avenir_book",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 14
+    },
+    "exempleJustifLabel": {
+      "title_color"     : "#A4A4A4",
+      "title_font_name" : "avenir_book",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 14
+    },
+    "addAdresse": {
+      "title_color"     : "#00AFEF",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": true,
+      "underLine"       : true,
+      "title_font_size" : 14
+    },
+    "folderDone": {
+      "title_color"     : "#00AFEF",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 14
+    },
+    "folderCurrent": {
+      "title_color"     : "#F15D22",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 14
+    },
+    "nextTitle": {
+      "title_color"     : "#8890A6",
+      "title_font_name" : "avenir_black",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 14
+    },
+    "nextBody": {
+      "title_color"     : "#515C6F",
+      "title_font_name" : "avenir_book",
+      "centreHorizontal": true,
+      "underLine"       : false,
+      "title_font_size" : 14
+    }
+
+
+      },
+  "keyboard"    : {
+    "primary": {
+      "buttonsRaduis": 30,
+      "buttonWidth": 30,
+      "buttonHeight" : 30,
+      "buttonsMargin" : 10,
+      "buttonsFont" : "sf_pro_text",
+      "buttonTextSize" : 3
+
+    } },
+  "imageView"   : {
+
+    "primary":
+    {
+      "centreHorizontal": false,
+      "borderColor"     : null,
+      "borderWidth"     : null
+    },
+    "secondary": {
+      "centreHorizontal": true,
+      "borderColor"     : null,
+      "borderWidth"     : null
+    },
+    "info": {
+      "centreHorizontal": false,
+      "imageWidth"      : 40,
+      "imageHeight"     : 30,
+      "borderColor"     : null,
+      "borderWidth"     : null,
+      "marginLeft"      : 70,
+      "marginButtom"    : 10
+    },
+    "info2": {
+      "centreHorizontal": true,
+      "imageWidth"      : 80,
+      "imageHeight"     : 110,
+      "borderColor"     : null,
+      "borderWidth"     : null,
+      "marginLeft"      : 0,
+      "marginButtom"    : 0
+    },
+
+
+    "alpha":
+    {
+      "centreHorizontal": true,
+      "imageWidth"      : 130,
+      "imageHeight"     : 120,
+      "borderColor"     : null,
+      "borderWidth"     : null,
+      "marginLeft"      : 0,
+      "marginButtom"    : 0
+    }
+
+
+  },
+  "comboBox"    : {
+
+    "primary": {
+      "textColor"          : "#030108",
+      "centreHorizontal"   : false
+    },
+    "secondary": {
+      "textColor"          : "#030108",
+      "centreHorizontal"   : true,
+      "comboBoxWidth"      : 330,
+      "comboBoxHeight"     : 50,
+      "marginLeft"         : 0,
+      "marginButtom"       : 0
+
+    },
+    "info": {
+      "textColor"          : "#0D1F3C",
+      "centreHorizontal"   : true,
+      "comboBoxWidth"      : 330,
+      "comboBoxHeight"     : 25,
+      "marginLeft"         : 0,
+      "marginButtom"       : 0
+
+    },
+
+
+    "info2":  {
+      "textColor"          : "#F15D22",
+      "centreHorizontal"   : false,
+      "comboBoxWidth"      : 280,
+      "comboBoxHeight"     : 350,
+      "marginLeft"         : 35,
+      "marginButtom"       : 0
+    }
+  },
+  "select"      : {
+    "primary": {
+      "textSize"         : 16,
+      "dividerColor"     : "#E7E8EB",
+      "textColor"        : "#0D1F3C",
+      "title_font_name"  : "avenir_book",
+      "labelAnimation"   : true,
+      "labelType"        : "beta2"
+    },
+    "primary22": {
+      "textSize"         : 16,
+      "dividerColor"     : "#B5BBC9",
+      "textColor"        : "#030108",
+      "title_font_name"  : "avenir_black",
+      "labelAnimation"   : false,
+      "labelType"        : "beta2"
+    },
+    "primaryxx": {
+      "textSize"         : 16,
+      "dividerColor"     : "#B5BBC9",
+      "textColor"        : "#030108",
+      "title_font_name"  : "avenir_black",
+      "labelAnimation"   : false,
+      "labelType"        : "beta2"
+    }
+  },
+  "radio"       : {
+    "primary" : {
+      "checkedColor"          : "#00AFEF",
+      "textColor"             : "#0D1F3C",
+      "text_font_name"        : "avenir_book",
+      "text_size"             : 15,
+      "RadioCheckedByDefault" : null
+    },
+    "secondary" : {
+      "checkedColor"          : "#751132",
+      "textColor"             : "#3D4C63",
+      "text_font_name"        : "sfprodisplay_bold",
+      "text_size"             : 15,
+      "RadioCheckedByDefault" : 1
+    },
+    "boldRadioButton" : {
+      "checkedColor"          : "#00AFEF",
+      "textColor"             : "#0D1F3C",
+      "text_font_name"        : "avenir_bold",
+      "text_size"             : 15,
+      "RadioCheckedByDefault" : null
+    }
+  },
+  "checkBox"    : {
+    "primary" : {
+      "checkBoxColor"    : "#00AFEF",
+      "labelType"        : "checkBoxLabel"
+    },
+    "primary2" : {
+      "checkBoxColor"    : "#00AFEF",
+      "labelType"        : "checkBoxLabel2"
+    },
+    "primary99" : {
+      "checkBoxColor"    : "#00AFEF",
+      "labelType"        : "checkBoxLabel222"
+    },
+    "boldcheckbox" : {
+      "checkBoxColor"    : "#00AFEF",
+      "labelType"        : "boldcheckboxLabel"
+    }
+  }
+}
+
+

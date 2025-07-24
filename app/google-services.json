@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "216610284759",
+    "project_id": "cih-online",
+    "storage_bucket": "cih-online.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:216610284759:android:18eb17fec4a193845efc92",
+        "android_client_info": {
+          "package_name": "com.b3g.cih.online"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_raX33x2wxCjCsKo2G1Sq5G7orNGM694"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,35 @@
+{
+  "components": [
+    {
+      "labelValue": "this is step2",
+      "labelType": "head",
+      "fawriFlowClass": "secondary",
+      "type": "fawriflowlabel",
+      "input": false,
+      "key": "c23e0631-35ce-f55b-dbe9-a9642fd8bbd0",
+      "tableView": false,
+      "label": "",
+      "id": "667e94cf-f52f-8129-fb2f-0ff4f8cfce0f"
+    },
+    {
+      "label": "Suivant",
+      "showValidations": false,
+      "tableView": false,
+      "key": "aea12d2f-cd47-d86e-cb1d-bccf8d8f6206",
+      "type": "button",
+      "input": true,
+      "id": "3f1836ef-2c3a-de4e-0056-fa62717ca422"
+    },
+    {
+      "label": "Back",
+      "action": "event",
+      "showValidations": false,
+      "tableView": false,
+      "key": "a4cc88cd-1481-49f5-31ec-65b4a2c50375",
+      "type": "button",
+      "input": true,
+      "event": "previousStep",
+      "id": "2366f962-63d8-5cdc-3632-001ecc8b1bf5"
+    }
+  ]
+}

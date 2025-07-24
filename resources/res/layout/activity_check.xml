@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/inc_toolbar"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:id="@+id/lay_not_eligible"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/img_not_eligible"
+                    android:adjustViewBounds="true"/>
+                <com.b3g.cih.cihpay.widgets.CustomTextView
+                    android:textSize="@dimen/_16sdp"
+                    android:textColor="#2c2828"
+                    android:gravity="center"
+                    android:padding="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cih_pay_n_est_pas_compatible_avec_ce_t_l_phone"
+                    app:custom_font="medium"/>
+                <com.b3g.cih.cihpay.widgets.CustomTextView
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="#929aab"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:paddingRight="@dimen/_20sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/votre_t_l_phone_n_est_pas_compatible_avec_la_technologie_de_paiement_sans_contact_nfc"
+                    app:custom_font="medium"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"/>
+                <com.b3g.cih.cihpay.widgets.CustomButton
+                    android:textSize="@dimen/_14sdp"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    android:background="@drawable/btn_app_theme"
+                    android:clickable="true"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_15sdp"
+                    android:layout_marginBottom="@dimen/_15sdp"
+                    android:text="@string/retour_l_accueil"
+                    android:onClick="onRetourButtonClicked"
+                    android:textAllCaps="false"
+                    app:custom_font="semibold"/>
+            </LinearLayout>
+            <include layout="@layout/inc_tuto"/>
+            <include layout="@layout/inc_progress_bar"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

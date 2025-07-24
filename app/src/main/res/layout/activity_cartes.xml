@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/inc_toolbar"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#fafafa"
+            android:paddingLeft="@dimen/_10sdp"
+            android:paddingRight="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_10sdp"/>
+            <com.b3g.cih.cihpay.widgets.CustomTextView
+                android:textSize="@dimen/_16sdp"
+                android:textColor="@color/app_color"
+                android:padding="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cartes"
+                app:custom_font="bold"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_3sdp"/>
+            <com.b3g.cih.cihpay.widgets.CustomButton
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/white"
+                android:gravity="center"
+                android:id="@+id/btn_add_card"
+                android:background="@drawable/btn_blue_theme"
+                android:visibility="visible"
+                android:clickable="true"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:text="@string/add_card"
+                android:onClick="onBtnAddCardClicked"
+                android:textAllCaps="false"
+                app:custom_font="semibold"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

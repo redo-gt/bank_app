@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@drawable/border_cell_history"
+        android:padding="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <com.b3g.cih.cihpay.widgets.CustomTextView
+                android:textSize="@dimen/_14sdp"
+                android:textColor="#042c5c"
+                android:ellipsize="marquee"
+                android:id="@+id/txt_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Shell - Rabat Agdal"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:marqueeRepeatLimit="marquee_forever"
+                app:custom_font="semibold"/>
+            <com.b3g.cih.cihpay.widgets.CustomTextView
+                android:textSize="@dimen/_11sdp"
+                android:textColor="#77869e"
+                android:id="@+id/txt_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="11 Mardi Juin"
+                app:custom_font="regular"/>
+        </LinearLayout>
+        <com.b3g.cih.cihpay.widgets.CustomTextView
+            android:textSize="@dimen/_14sdp"
+            android:textColor="#ee5a55"
+            android:id="@+id/txt_amount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 200,00 Dhs"
+            app:custom_font="semibold"/>
+    </LinearLayout>
+</LinearLayout>

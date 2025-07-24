@@ -1,0 +1,7 @@
+{
+  "client": {
+    "app_id": "YOUR_HUAWEI_APP_ID",
+    "package_name": "com.b3g.cih.online"
+  },
+  "configuration_version": "1.0"
+}

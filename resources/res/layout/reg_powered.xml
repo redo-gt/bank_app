@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/regulaLogoLayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/reg_frame_powered_margin">
+        <ImageView
+            android:layout_gravity="bottom"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginRight="6dp"
+            android:src="0x7f08024c"
+            android:scaleType="centerInside"
+            android:contentDescription="powered by Regula"
+            android:layout_marginEnd="6dp"/>
+        <TextView
+            android:textSize="11dp"
+            android:textColor="@android:color/white"
+            android:layout_gravity="bottom"
+            android:id="@+id/logoLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="powered by Regula"
+            android:shadowColor="@android:color/black"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:shadowRadius="2"/>
+    </LinearLayout>
+</FrameLayout>
